@@ -42,6 +42,7 @@ export default defineConfig({
 		assetsInlineLimit: 0, // Disable inlining of images
 		rollupOptions: {
 			input: {
+				"index": "./src/index.html"
 			},
 			output: {
 				// Ensure proper HTML file generation
