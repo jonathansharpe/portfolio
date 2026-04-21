@@ -3,9 +3,6 @@ import ImageHeader from './components/image-header.jsx';
 import Paragraph from './components/paragraph.jsx';
 import SectionHeader from './components/park-review-header.jsx';
 import MainTextDiv from './components/main-text-div.jsx';
-// Use a reference to the image path directly instead of importing
-//
-
 
 export default function App(){
 	return (
@@ -44,7 +41,7 @@ export default function App(){
 		<hr className="my-2 border-emerald-500"/>
 		<div className="flex items-center">
 		<a className="group relative block w-1/4 border border-1 rounded-md p-1 border-emerald-800 bg-linear-14 from-sky-900 to-slate-900 my-2 font-dmsans transition-all hover:border-emerald-500 hover:shadow-2xl hover:shadow-emerald-500/20 active:scale-95 active:duration-75" href="https://youtu.be/aMFmd9eoO_I" target="_blank">
-		<img className="border rounded-md border-emerald-500 w-full" src="./public/images/icons8-graduation-48.png" alt="Image coming soon!"/>
+		<img className="border rounded-md border-emerald-500 w-full" src="./images/icons8-graduation-48.png" alt="Image coming soon!"/>
 		<div className="font-azeret absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
 		<span className="text-white font-bold border-2 border-white px-4 py-2 rounded-lg uppercase">
 		view demo ↗
@@ -61,7 +58,7 @@ export default function App(){
 		<SectionHeader>Linux Dotfiles</SectionHeader>
 		I have daily-driven Linux for 5 years now. While sometimes I go through dry spells, I am usually tweaking something in my setup (Linux is great for tinkering!) Right now it's not at all in a state where someone could just download them for use but they're there if you want to look at them.</Paragraph>
 		<a className="group relative block w-1/4 border border-1 rounded-md p-1 border-emerald-800 bg-linear-14 from-sky-900 to-slate-900 my-2 font-dmsans transition-all hover:border-emerald-500 hover:shadow-2xl hover:shadow-emerald-500/20 active:scale-95 active:duration-75" href="https://github.com/jonathansharpe/jsharpe-dotfiles" target="_blank">
-		<img className="border rounded-md border-emerald-500" src="./public/images/endeavour.png"/>
+		<img className="border rounded-md border-emerald-500" src="./images/endeavour.png"/>
 		<div className="font-azeret absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
 		<span className="text-white font-bold border-2 border-white px-4 py-2 rounded-lg uppercase">
 		view github ↗
@@ -72,7 +69,7 @@ export default function App(){
 		<hr className="my-2 border-emerald-500"/>
 		<div className="flex items-center">
 		<a className="group relative block w-1/4 border border-1 rounded-md p-1 border-emerald-800 bg-linear-14 from-sky-900 to-slate-900 my-2 font-dmsans transition-all hover:border-emerald-500 hover:shadow-2xl hover:shadow-emerald-500/20 active:scale-95 active:duration-75" href="https://github.com/jonathansharpe/createbuildingwands" target="_blank">
-		<img className="border rounded-md border-emerald-500 w-full" src="./public/images/icons8-wand-96.png"/>
+		<img className="border rounded-md border-emerald-500 w-full" src="./images/icons8-wand-96.png"/>
 		<div className="font-azeret absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
 		<span className="text-white font-bold border-2 border-white px-4 py-2 rounded-lg uppercase">
 		view github ↗
