@@ -9,35 +9,24 @@ export default function App(){
 	return (
 		<Essentials>
 		<MainTextDiv>
-		<ImageHeader imageLink={'/images/T-Mobile Park.jpg'} headerText={'Sharpe\'s Hit List'} />
+
+		<SectionHeader>Hello!</SectionHeader>
 		
-				<SectionHeader>Intro</SectionHeader>
+		<Paragraph>
+		I'm Jonathan. I am a growing developer in the Seattle area. I attended Seattle Pacific University and graduated with a degree in computer science. While not currently paid to do so, I am always working on improving my programming skills to set myself up for a future opportunity. Here are some of the things I've been working on.
+		</Paragraph>
 
-				<Paragraph>
-					I've been a lifelong fan of baseball. I played some little league, but I found joy in watching, listening, and especially attending baseball games. I became more interested in the league as a whole in 2012, and began logging games I attended from that point forward. This site catalogues these games, along with the stadiums I've visited and my thoughts on them.
-				</Paragraph>
+		<SectionHeader>Sharpe's Hit List</SectionHeader>
+		<Paragraph>This is the project I've put the most time into. I'm a big baseball fan, so it's my way of documenting all stadiums I've visited and the games I've attended. I continue to maintain this and have some big plans for it in the future.</Paragraph>
 
-				<SectionHeader>Games</SectionHeader>
+		<SectionHeader>Graduation Planning App (GPA)</SectionHeader>
+		<Paragraph>In my final year of college, I teamed up with 5 other students to create a web app that could replace our university's existing course registration and course planning website. The existing system was difficult to navigate and understand what courses were required for what degrees, resulting in many meetings with academic advisors simply to figure out what class needed to be taken next. This project aimed to streamline all parts of registration. The four parts of the site included the course catalog, suggested course sequences for each major, course planning, and the course registration itself. It was a difficult projet but we won an award at our end-of-year Erickson Conference for our efforts. The page is no longer live but I did record a bit of a video demonstrating its use.</Paragraph>
 
-				<Paragraph>
-					For a long time, the data began in 2012 since I didn't have the exact dates of the games I'd been to before then. However, with some help from my dad, we tracked down the other games I'd been to, and now the database is complete!
-				</Paragraph>
+		<SectionHeader>Linux Dotfiles</SectionHeader>
+		<Paragraph>I have daily-driven Linux for 5 years now. While sometimes I go through dry spells, I am usually tweaking something in my setup (Linux is great for tinkering!) Right now it's not at all in a state where someone could just download them for use but they're there if you want to look at them.</Paragraph>
 
-				<Paragraph>
-					Each game features a log documenting interesting things that happened, particularly things you won't find in the boxscore. However, there is still a link to the boxscore on Baseball-Reference (for regular season and eventual postseason games).
-				</Paragraph>
-
-				<SectionHeader>Park Reviews</SectionHeader>
-
-				<Paragraph>
-					I've now attended 15 Major League Baseball stadiums (14 active) and 4 Spring Training parks. Included are reviews of each park. Eventually I want to rank them all as well.
-				</Paragraph>
-
-				<SectionHeader>Other Plans</SectionHeader>
-
-				<Paragraph>
-					As mentioned, a tier list of all the parks I've been to is on my to do list. I'll also improve the UX and UI over time.
-				</Paragraph>
+		<SectionHeader>Create: Building Wands</SectionHeader>
+		<Paragraph>This is supposed to be the best building wand mod I could never find. The Create mod is what made me fall in love with playing modded Minecraft, especially with all the copycat blocks present, if you include the Create: Copycats+ addon. Copycat blocks offer more block shapes to improve detailing by applying a texture from any other block to its texture. For example, a copycat slab with a grass block texture. I have yet to find a wand mod that allows for mass block placement using those systems. I began development but it is currently on hiatus, I hope to return to it at some point.</Paragraph>
 
 		</MainTextDiv>
 		</Essentials>

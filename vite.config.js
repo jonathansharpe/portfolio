@@ -13,7 +13,6 @@ const shareableAssets = ['main.jsx', 'index.html', 'style.css'];
 // https://vitejs.dev/config/
 export default defineConfig({
 	root,
-	publicDir,
 	plugins: [
 		react(),
 		{
@@ -33,7 +32,6 @@ export default defineConfig({
 			'@': root,
 			'@components': resolve(root, 'components'),
 			'@images': resolve(root, 'images'),
-			'@shared': sharedDir,
 			// Alias for each park to its review
 		}
 	},
